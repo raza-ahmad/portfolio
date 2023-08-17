@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1100px)"
+      href="./responsive.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 1100px)"
+      href="./navbar.css"
+    />
+    <link rel="icon" href="./Resources./logo1.png" />
+    <title>AHMA RAZA</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="nav" id="nav">
+        <ul class="navbar">
+          <li class="logo logo-img">
+            <a class="nav-link" onclick="hameffect();" href="./index.html">
+              <img class="grey-icon" src="Resources/logo1.png" alt="" />
+              <span class="nav-text">AHMAD RAZA</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" onclick="hameffect();" href="#home">
+              <img class="grey-icon" src="./Resources/home.png" alt="" />
+              <span class="nav-text">Home</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" onclick="hameffect();" href="#about">
+              <img class="grey-icon" src="Resources/about.png" alt="" />
+              <span class="nav-text">About Me</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" onclick="hameffect();" href="#what-i-do">
+              <img class="grey-icon" src="Resources/what-i-do.png" alt="" />
+              <span class="nav-text">What I Do</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" onclick="hameffect();" href="#resume">
+              <img class="grey-icon" src="Resources/portfolio.png" alt="" />
+              <span class="nav-text">Resume</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" onclick="hameffect();" href="#portfolio">
+              <img class="grey-icon" src="Resources/portfolio.png" alt="" />
+              <span class="nav-text">Portfolio</span>
+            </a>
+          </li>
+          <!-- <li class="nav-item">
+                    <a class="nav-link" href="#testimonial">
+                        <img class="grey-icon" src="./Resources./testimonial.png" alt="">
+                        <span class="nav-text">Testimonial</span>
+                    </a>
+                </li> -->
+          <li class="nav-item">
+            <a class="nav-link" onclick="hameffect();" href="#contact">
+              <img class="grey-icon" src="Resources/contacts.png" alt="" />
+              <span class="nav-text">Contact</span>
+            </a>
+          </li>
+        </ul>
+        <div class="hamburger centre" id="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="home-container" id="home">
+        <div class="home centre text-centre">
+          <h2>Hello, I'm</h2>
+          <!-- <h1 class="name">AHmad raza!</h1> -->
+          <div>
+            <span class="name" id="name"> </span>
+            <span class="blink">|</span>
+          </div>
+          <h3>based in banglore, Karnataka</h3>
+          <a href="#contact"><button>Hire Me</button></a>
+          <ul class="social-nav">
+            
+            
+            <li>
+              <a
+                class="centre social-nav-icon"
+                href="https://github.com/raza-ahmad"
+                target="_blank"
+              >
+                <img class="github" src="Resources/github.svg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a
+                class="centre social-nav-icon"
+                href="https://www.linkedin.com/in/ahmad-raza-6b2131281/"
+                target="_blank"
+              >
+                <img class="linkedin" src="Resources/linkedin.svg" alt="" />
+              </a>
+            </li>
+          </ul>
+          <a href="#about" class="arrow-down">
+            <img src="Resources/scroll-down.gif" alt="" />
+          </a>
+        </div>
+      </section>
+      <section class="bg1" id="about">
+        <div class="about">
+          <div class="section-title">
+            <div class="inner text">ABOUT ME</div>
+            <div class="upper text">
+              Know Me More<span class="underline"></span>
+            </div>
+          </div>
+          <div class="intro-container margin row">
+            <div class="dp centre">
+              <img src="./Resources/IMG_20230113_191932_333.jpg" alt="" />
+            </div>
+            <div class="intro">
+              <h2 class="white text-centre">
+                I'm <span class="color-scheme">Ahmad Raza</span>, a Web
+                Developer
+              </h2>
+              <p class="para grey">
+                Hi, I'm Ahmad Raza,a Self-Taught Passionate Web Developer from
+                banglore. I'm currently doing Bachelors in Computer Science from
+                VV puram college of sceince.
+                I've created Countless Projects for
+                my University Coursework and I also Enjoy Coding for Exciting
+                Projects for Fun.
+                <br /><br />
+                I also Enjoy Working on Notable Open Source Projects. I Actively
+                Manage a Number of these Projects, and Working on them gives me
+                a Tremendous Sense of Excitement and Accomplishment that is
+                Difficult for me to put into Words.
+              </p>
+            </div>
+            <div class="detail">
+              <ul>
+                <li class="detail-list white"><b>Name: </b>Ahmad Raza</li>
+                <li class="detail-list white">
+                  <b>Email: </b
+                  ><a class="color-scheme" href="mailto:kbasim039@gmail.com"
+                    >ahmadraza7396@gmail.com</a
+                  >
+                </li>
+                <li class="detail-list white"><b>Age: </b>21</li>
+                <li class="detail-list white">
+                  <b>From: </b>Banglore, Karnataka
+                </li>
+              </ul>
+              <a
+                href="#"
+                target="_blank"
+                ><button class="button white">Download CV</button></a
+              >
+            </div>
+          </div>
+          <div class="accomplishment margin">
+            
+            <div class="l3 accomplishment-list">
+              <h2 class="grey">8+</h2>
+              <p>Projects Done</p>
+            </div>
+            <div class="l4 accomplishment-list margin-bottom">
+              <h2 class="grey">1</h2>
+              <p>Awards</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg2" id="what-i-do">
+        <div class="what-i-do">
+          <div class="section-title">
+            <div class="inner text">SERVICES</div>
+            <div class="upper text">
+              What I Do?<span class="underline"></span>
+            </div>
+          </div>
+          <div class="services margin row">
+            <div class="services-list">
+              <div class="image centre">
+                <img src="Resources/web-development.png" alt="" />
+              </div>
+              <div class="services-detail">
+                <h3>Web Development</h3>
+                <p class="para grey">
+                  I'm more towards Full Stack Development and love to work with
+                  React/React.js as well as pure HTML, CSS & JS.
+                </p>
+              </div>
+            </div>
+            
+            <div class="services-list">
+              <div class="image centre">
+                <img src="Resources/ui-ux-design.png" alt="" />
+              </div>
+              <div class="services-detail">
+                <h3>UI/UX Design</h3>
+                <p class="para grey">
+                  I'm not that into UI Design but I've done my fair share of
+                  work in it through my obsession for beautiful UI's.
+                </p>
+              </div>
+            </div>
+            
+            
+            <div class="services-list margin-bottom">
+              <div class="image centre">
+                <img src="Resources/database.png" alt="" />
+              </div>
+              <div class="services-detail">
+                <h3>Database Management</h3>
+                <p class="para grey">
+                  I can create & manage both Relational 
+                  using SQl
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg1" id="resume">
+        <div class="resume">
+          <div class="section-title">
+            <div class="inner text">SUMMARY</div>
+            <div class="upper text">Resume<span class="underline"></span></div>
+          </div>
+          <div class="resume-container margin row">
+            <div class="education tile-container row">
+              <h2>My Education</h2>
+              <div class="tile tile-margin">
+                <div class="white yearbg">2022 - 2026</div>
+                <h3>Bachelors of Computer application</h3>
+                <p class="color-scheme">VV puram college of science</p>
+                <p class="para grey">
+                  I'm currently pursuing my Bachelor's of Computer application and
+                  also taking part in various extra curricular activities.
+                </p>
+              </div>
+              
+              
+            
+          <div class="skills margin row">
+            <br />
+            <h2>My Skills</h2>
+            <div class="skill-list row">
+              <div class="education tile-container row">
+                <div class="progress tile-margin">
+                  <div>
+                    <div class="skill-title">
+                      <span class="centre">
+                        <img src="Resources./web-development.png" alt="" />
+                        <span>Web Design</span>
+                      </span>
+                      <span style="float: right">65%</span>
+                    </div>
+                    <div class="progressbar">
+                      <div class="bar" style="width: 65%"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="progress tile-margin">
+                  <div>
+                    <div class="skill-title">
+                      <span class="centre">
+                        <img src="Resources/javascript.png" alt="" />
+                        <span>Javascript</span>
+                      </span>
+                      <span style="float: right">80%</span>
+                    </div>
+                    <div class="progressbar">
+                      <div class="bar" style="width: 80%"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="progress tile-margin">
+                  <div>
+                    
+                    <div class="progressbar">
+                      <div class="bar" style="width: 85%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="experiance tile-container row">
+                <div class="progress tile-margin">
+                  <div>
+                    <div class="skill-title">
+                      <span class="centre">
+                        <img src="Resources/html.png" alt="" />
+                        <span>HTML / </span
+                        ><img src="Resources/css.png" alt="" /><span
+                          >CSS</span
+                        >
+                      </span>
+                      <span style="float: right">90%</span>
+                    </div>
+                    <div class="progressbar">
+                      <div class="bar" style="width: 90%"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="progress tile-margin">
+                  <div>
+                    <div class="skill-title">
+                      <span class="centre">
+                        <img src="./Resources./react.png" alt="" />
+                        <span> React JS</span>
+                      </span>
+                      <span style="float: right">75%</span>
+                    </div>
+                    <div class="progressbar">
+                      <div class="bar" style="width: 75%"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="progress tile-margin">
+                  <div>
+                   
+                    <div class="progressbar">
+                      <div class="bar" style="width: 70%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br />
+          <div class="centre">
+            <a
+              href="#"
+              target="_blank"
+              ><button class="button white margin-bottom">
+                Download CV
+              </button></a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="bg2" id="portfolio">
+        <div class="portfolio">
+          <div class="section-title">
+            <div class="inner text">PORTFOLIO</div>
+            <div class="upper text">My Work<span class="underline"></span></div>
+          </div>
+          <div class="mywork margin">
+            <div class="project-container tile-margin row">
+              <div class="project project-margin">
+                <h2>Spotify Clone</h2>
+                <p class="para grey">
+                  Spotify Clone made by only using Pure HTML, CSS, JavaScript.
+                  Spotify-Clone with my flavours of feature and songs, is a
+                  music streaming platform, where you can listen to your songs
+                  anywhere anytime you want! Enjoy
+                </p>
+                <div class="project-btn-container">
+                  <a
+                    class="project-button button centre"
+                    href="https://spotify-clone-ahmad.netlify.app"
+                    target="_blank "
+                    >Live Demo</a
+                  >
+                  <a
+                    class="centre social-nav-icon"
+                    href="https://github.com/raza-ahmad"
+                    target="_blank"
+                    ><img class="github" src="Resources/github.svg" alt=""
+                  /></a>
+                </div>
+              </div>
+              
+            </div>
+           
+              
+            
+            </div>
+        </div>
+        <div class="contact-container margin">
+          <div class="centre">
+            <div class="contact project margin-bottom">
+              <h2>SEND US A NOTE</h2>
+              <form
+                class="row"
+                action="https://formspree.io/f/mvonbznb"
+                method="POST"
+              >
+                <input
+                  name="name"
+                  type="text"
+                  placeholder="Name"
+                  id="username"
+                  required
+                />
+                <input
+                  type="email"
+                  placeholder="Email"
+                  name="email"
+                  id="email"
+                  style="float: right"
+                  required
+                />
+                <textarea
+                  name="explain"
+                  id="explain"
+                  placeholder="TELL US MORE ABOUT YOUR NEEDS..."
+                  required
+                ></textarea>
+                <button
+                  type="submit"
+                  value="SEND"
+                  class="button"
+                  id="submit-btn"
+                >
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="bg2">
+        <div class="footer margin">
+          <div class="logo-img">
+            <a href="./index.html">
+              <img class="grey-icon" src="Resources/logo1.png" alt="" />
+            </a>
+          </div>
+          <p class="footer-logo" style="float: right">
+            Copyright &#169; 2023<span class="color-scheme"
+              >. Ahmad RAZA .</span
+            >
+            All Rights Reserved
+          </p>
+        </div>
+      </footer>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
